@@ -4,13 +4,14 @@
     {
         static void Main(string[] args)
         {
-            int maxNumber = 10;
-
-            for ( int i = 0; i < maxNumber; i++)
+            Console.WriteLine(" How Many even numbers");
+            int maxNumber = int.Parse (Console.ReadLine());
+            int loopCounter;
+            // prien even numbers up to requested max
+            for (loopCounter = 0; loopCounter < maxNumber; loopCounter +=2 )
             {
-                Console.WriteLine(
+                Console.WriteLine(loopCounter);
             }
-
         }
     }
 }
